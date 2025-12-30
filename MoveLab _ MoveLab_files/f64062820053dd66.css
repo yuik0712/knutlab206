@@ -1530,7 +1530,7 @@ video {
     }
 
     .md\:h-6 {
-        height: 1.5rem
+        height: 3.5em
     }
 
     .md\:h-40 {
@@ -1785,7 +1785,7 @@ video {
     }
 
     .xl\:h-12 {
-        height: 3rem
+        height: 5rem
     }
 
     .xl\:w-3\/5 {
