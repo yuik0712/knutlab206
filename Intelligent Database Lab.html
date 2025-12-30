@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intelligent Database Lab</title>
+
+    <link rel="icon" type="image/png" href="https://movelab.ajou.ac.kr/favicon.png">
+    <link rel="stylesheet" href="./MoveLab _ MoveLab_files/animate.min.css">
+    <link rel="stylesheet" href="./MoveLab _ MoveLab_files/f64062820053dd66.css">
+    <script src="./MoveLab _ MoveLab_files/polyfills-5cd94c89d3acac5f.js"></script>
+    <script src="./MoveLab _ MoveLab_files/webpack-6e05b7afeb992815.js"></script>
+    <script src="./MoveLab _ MoveLab_files/main-f5b95f02b0d54b26.js"></script>
+    <script src="./MoveLab _ MoveLab_files/index-10091b37c3adcc55.js"></script>
+    <script src="./MoveLab _ MoveLab_files/framework-a87821de553db91d.js"></script>
+    <script src="./MoveLab _ MoveLab_files/873-c600b1cf86c7070a.js"></script>
+    <script src="./MoveLab _ MoveLab_files/437-68d1466657cdc00d.js"></script>
+    <script src="./MoveLab _ MoveLab_files/_ssgManifest.js"></script>
+    <script src="./MoveLab _ MoveLab_files/_middlewareManifest.js"></script>
+    <script src="./MoveLab _ MoveLab_files/_buildManifest.js"></script>
+    <script src="./MoveLab _ MoveLab_files/_app-af115510931d873c.js"></script>
+</head>
+
+<body>
+    <div class="Container">
+        <div class="overflow-hidden">
+
+            <!-- ===== TOP BAR ===== -->
+            <div id="header"
+                class="transition-all duration-500 transform-gpu flex items-center justify-between w-full fixed z-30 bg-transparent h-28 md:h-40 lg:h-48">
+                <div class="ml-[10%] cursor-pointer lg:ml-[10%]">
+                    <img class="h-8 md:h-10 xl:h-12" src="./MoveLab _ MoveLab_files/whiteLogo.svg">
+                </div>
+
+                <div id="menuIcon" class="mr-[10%] w-8 bg-transparent cursor-pointer md:w-10 lg:mr-[15%]">
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                </div>
+            </div>
+
+            <!-- ===== HERO ===== -->
+            <section class="w-full h-[26rem] relative lg:h-[30rem]">
+                <div class="absolute w-full h-full z-10 bg-black bg-opacity-30"></div>
+
+                <div class="absolute w-full h-full">
+                    <img src="./MoveLab _ MoveLab_files/introBanner.webp"
+                        class="absolute inset-0 w-full h-full object-cover object-center" alt="Intro Banner" />
+
+                </div>
+
+                <div
+                    class="z-20 relative top-1/2 left-[10%] lg:left-1/4 transform -translate-y-1/2 font-poppins animate-fadeUp">
+                    <h1 class="max-w-[40rem] text-5xl font-bold text-white pb-6 leading-tight break-words">
+                        Welcome to <br> Intelligent Database LAB!
+                    </h1>
+
+                    <h2 class="max-w-[32rem] text-lg leading-snug text-white text-opacity-70">
+                        Past, Present, and Future: Traditional Database,
+                        <br>Big Data Analysis, AI Platform and Technology, and Mobility
+                    </h2>
+                </div>
+
+            </section>
+
+            <!-- ===== BODY LAYOUT ===== -->
+            <div class="w-full flex flex-col lg:flex-row">
+
+                <!-- ===== NAV ===== -->
+                <nav class="flex-none w-full h-[5rem] relative bg-white z-20 shadow-md
+                        lg:min-w-[18rem] lg:w-0 lg:h-fit lg:bg-white lg:-top-20 lg:shadow-none">
+
+                    <button
+                        class="relative top-1/2 left-[70%] -translate-y-1/2 ml-[10%] text-2xl text-gray-700 lg:hidden">
+                        Show
+                    </button>
+
+                    <div class="bg-white shadow-md hidden lg:block lg:shadow-none lg:overflow-x-hidden">
+                        <ul class="w-fit m-auto space-y-5 pr-10 pt-10 pb-8 text-xl text-gray-800
+                               border-b-2 border-gray-200 lg:pt-20">
+                            <li>
+                                <span class="cursor-pointer text-2xl text-amber-800">
+                                    News, Updates
+                                </span>
+                            </li>
+                            <li><span class="cursor-pointer hover:text-gray-400">About</span></li>
+                            <li><span class="cursor-pointer hover:text-gray-400">Research</span></li>
+                            <li><span class="cursor-pointer hover:text-gray-400">People</span></li>
+                            <li><span class="cursor-pointer hover:text-gray-400">Support</span></li>
+                            <li><span class="cursor-pointer hover:text-gray-400">Gallery</span></li>
+                        </ul>
+
+                        <div class="mt-5 pb-10 text-center w-fit m-auto">
+                            <figure class="w-28 m-auto pb-3">
+                                <img class="h-4 md:h-6 cursor-pointer" src="./MoveLab _ MoveLab_files/movelab1.png">
+                            </figure>
+
+                            <div class="flex items-center w-fit space-x-2 text-gray-600 cursor-pointer">
+                                <span>jso@ajou.ac.kr</span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- ===== MAIN ===== -->
+                <main
+                    class="flex-auto grid grid-cols-1 grid-flow-row gap-4 p-5 bg-gray-100 xs:px-20 sm:grid-cols-2 sm:px-5 md:grid-cols-3 xl:grid-cols-4">
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="group cursor-pointer bg-white shadow-lg">
+                        <figure class="relative">
+                            <!-- hover overlay -->
+                            <div
+                                class="absolute inset-0 z-10 bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300">
+                            </div>
+
+                            <!-- image -->
+                            <div class="w-full aspect-square relative">
+                                <img src="/data/intro/image/move-109.webp" alt="Movelab IEEE ITSC 2025"
+                                    class="absolute inset-0 w-full h-full object-cover" loading="lazy">
+                            </div>
+                        </figure>
+
+                        <!-- hover line -->
+                        <div class="h-[3px] bg-white group-hover:bg-amber-700 transition-all duration-300"></div>
+
+                        <!-- text -->
+                        <div class="px-3 pt-5 pb-5">
+                            <p
+                                class="text-base text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-normal">
+                                Movelab attended and presented at the IEEE ITSC 2025
+                            </p>
+
+                            <h5
+                                class="pt-4 text-xl text-gray-800 group-hover:text-amber-700 transition-all duration-500">
+                                Nov. 2025
+                            </h5>
+                        </div>
+                    </div>
+
+                    <!-- 카드 구조는 그대로 두고 반복 -->
+                    <!-- layout 영향 없음 -->
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+  const header = document.getElementById("header");
+  const menuBars = document.querySelectorAll(".menu-bar");
+  const logo = header.querySelector("img");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 200) {
+      // header
+      header.classList.remove("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+      header.classList.add("bg-white", "h-16", "md:h-20", "shadow-lg");
+
+      // logo
+      logo.src = "/data/common/moveBlack.svg";
+
+      // menu icon → black
+      menuBars.forEach(bar => {
+        bar.classList.remove("bg-white");
+        bar.classList.add("bg-black");
+      });
+
+    } else {
+      // header
+      header.classList.remove("bg-white", "h-16", "md:h-20", "shadow-lg");
+      header.classList.add("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+
+      // logo
+      logo.src = "./MoveLab _ MoveLab_files/whiteLogo.svg";
+
+      // menu icon → white
+      menuBars.forEach(bar => {
+        bar.classList.remove("bg-black");
+        bar.classList.add("bg-white");
+      });
+    }
+  });
+</script>
+</html>
