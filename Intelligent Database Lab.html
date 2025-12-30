@@ -5,86 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intelligent Database Lab</title>
-
     <link rel="icon" type="image/png" href="https://movelab.ajou.ac.kr/favicon.png">
     <link rel="stylesheet" href="./MoveLab _ MoveLab_files/animate.min.css">
     <link rel="stylesheet" href="./MoveLab _ MoveLab_files/f64062820053dd66.css">
-    <script src="./MoveLab _ MoveLab_files/polyfills-5cd94c89d3acac5f.js"></script>
-    <script src="./MoveLab _ MoveLab_files/webpack-6e05b7afeb992815.js"></script>
-    <script src="./MoveLab _ MoveLab_files/main-f5b95f02b0d54b26.js"></script>
-    <script src="./MoveLab _ MoveLab_files/index-10091b37c3adcc55.js"></script>
-    <script src="./MoveLab _ MoveLab_files/framework-a87821de553db91d.js"></script>
-    <script src="./MoveLab _ MoveLab_files/873-c600b1cf86c7070a.js"></script>
-    <script src="./MoveLab _ MoveLab_files/437-68d1466657cdc00d.js"></script>
-    <script src="./MoveLab _ MoveLab_files/_ssgManifest.js"></script>
-    <script src="./MoveLab _ MoveLab_files/_middlewareManifest.js"></script>
-    <script src="./MoveLab _ MoveLab_files/_buildManifest.js"></script>
-    <script src="./MoveLab _ MoveLab_files/_app-af115510931d873c.js"></script>
 </head>
 
 <body>
     <div class="Container">
         <div class="overflow-hidden">
-
-            <!-- ===== TOP BAR ===== -->
-            <div id="header"
-                class="transition-all duration-500 transform-gpu flex items-center justify-between w-full fixed z-30 bg-transparent h-28 md:h-40 lg:h-48">
+            <!-- ===== 상단바 영역 ===== -->
+            <div id="header" class="transition-all duration-500 transform-gpu flex items-center justify-between w-full fixed z-30 bg-transparent h-28 md:h-40 lg:h-48">
                 <div class="ml-[10%] cursor-pointer lg:ml-[10%]">
-                    <img class="h-8 md:h-10 xl:h-12" src="./MoveLab _ MoveLab_files/whiteLogo.svg">
+                    <img class="h-8 md:h-10 xl:h-12 max-w-[10rem] w-auto" src="knutlab_icon.png"> <!-- 연구실 로고 -->
                 </div>
-
-                <div id="menuIcon" class="mr-[10%] w-8 bg-transparent cursor-pointer md:w-10 lg:mr-[15%]">
+                <div id="menuIcon" class="mr-[10%] w-8 bg-transparent cursor-pointer md:w-10 lg:mr-[15%]"> <!-- 메뉴 아이콘 -->
                     <div class="menu-bar my-1 h-1 w-full bg-white"></div>
                     <div class="menu-bar my-1 h-1 w-full bg-white"></div>
                     <div class="menu-bar my-1 h-1 w-full bg-white"></div>
                 </div>
             </div>
-
-            <!-- ===== HERO ===== -->
+            <!-- ===== 상단 소개 세션 영역 ===== -->
             <section class="w-full h-[26rem] relative lg:h-[30rem]">
                 <div class="absolute w-full h-full z-10 bg-black bg-opacity-30"></div>
-
                 <div class="absolute w-full h-full">
-                    <img src="./MoveLab _ MoveLab_files/introBanner.webp"
-                        class="absolute inset-0 w-full h-full object-cover object-center" alt="Intro Banner" />
-
+                    <img src="./MoveLab _ MoveLab_files/introBanner.webp" class="absolute inset-0 w-full h-full object-cover object-center" alt="Intro Banner" />
                 </div>
-
-                <div
-                    class="z-20 relative top-1/2 left-[10%] lg:left-1/4 transform -translate-y-1/2 font-poppins animate-fadeUp">
-                    <h1 class="max-w-[40rem] text-5xl font-bold text-white pb-6 leading-tight break-words">
-                        Welcome to <br> Intelligent Database LAB!
+                <div class="z-20 relative top-1/2 left-[10%] lg:left-1/4 transform -translate-y-1/2 font-poppins animate-fadeUp">
+                    <h1 class="max-w-[40rem] text-5xl font-bold text-white pb-6 leading-tight break-words"> <!-- 큰 타이틀 -->
+                        Welcome to <br> Intelligent Database LAB! 
                     </h1>
-
-                    <h2 class="max-w-[32rem] text-lg leading-snug text-white text-opacity-70">
+                    <h2 class="max-w-[32rem] text-lg leading-snug text-white text-opacity-70"> <!-- 작은 타이틀 -->
                         Past, Present, and Future: Traditional Database,
                         <br>Big Data Analysis, AI Platform and Technology, and Mobility
                     </h2>
                 </div>
-
             </section>
 
-            <!-- ===== BODY LAYOUT ===== -->
             <div class="w-full flex flex-col lg:flex-row">
-
-                <!-- ===== NAV ===== -->
-                <nav class="flex-none w-full h-[5rem] relative bg-white z-20 shadow-md
-                        lg:min-w-[18rem] lg:w-0 lg:h-fit lg:bg-white lg:-top-20 lg:shadow-none">
-
-                    <button
-                        class="relative top-1/2 left-[70%] -translate-y-1/2 ml-[10%] text-2xl text-gray-700 lg:hidden">
-                        Show
-                    </button>
-
+                <!-- ===== 네비게이션 바 영역 ===== -->
+                <nav class="flex-none w-full h-[5rem] relative bg-white z-20 shadow-md lg:min-w-[18rem] lg:w-0 lg:h-fit lg:bg-white lg:-top-20 lg:shadow-none">
+                    <button class="relative top-1/2 left-[70%] -translate-y-1/2 ml-[10%] text-2xl text-gray-700 lg:hidden"> Show </button>
                     <div class="bg-white shadow-md hidden lg:block lg:shadow-none lg:overflow-x-hidden">
-                        <ul class="w-fit m-auto space-y-5 pr-10 pt-10 pb-8 text-xl text-gray-800
-                               border-b-2 border-gray-200 lg:pt-20">
-                            <li>
-                                <span class="cursor-pointer text-2xl text-amber-800">
-                                    News, Updates
-                                </span>
-                            </li>
-                            <li><span class="cursor-pointer hover:text-gray-400">About</span></li>
+                        <ul class="w-fit m-auto space-y-5 pr-10 pt-10 pb-8 text-xl text-gray-800 border-b-2 border-gray-200 lg:pt-20">
+                            <li><a href="Intelligent Database Lab.html" class="cursor-pointer hover:text-gray-400">Home</a></li>
+                            <li><a href="Intelligent Database Lab_About.html" class="cursor-pointer hover:text-gray-400">About</a></li>
                             <li><span class="cursor-pointer hover:text-gray-400">Research</span></li>
                             <li><span class="cursor-pointer hover:text-gray-400">People</span></li>
                             <li><span class="cursor-pointer hover:text-gray-400">Support</span></li>
@@ -92,18 +56,35 @@
                         </ul>
 
                         <div class="mt-5 pb-10 text-center w-fit m-auto">
-                            <figure class="w-28 m-auto pb-3">
-                                <img class="h-4 md:h-6 cursor-pointer" src="./MoveLab _ MoveLab_files/movelab1.png">
-                            </figure>
+                            <!-- 로고 이미지 -->
+                            <figure class="w-28 m-auto pb-3"><img src="knutlab_bgO_icon.png" alt="Lab Logo" class="h-4 md:h-6 cursor-pointer"></figure>
 
-                            <div class="flex items-center w-fit space-x-2 text-gray-600 cursor-pointer">
-                                <span>jso@ajou.ac.kr</span>
+                            <!-- 이메일 아이콘 -->
+                            <div class="flex items-center w-fit space-x-2 text-gray-600 m-auto mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span>h21025763@a.ut.ac.kr</span>
+                            </div>
+
+                            <!-- 전화번호 아이콘 -->
+                            <div class="flex items-center w-fit space-x-2 text-gray-600 m-auto mb-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h2.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-1.272.636a11.042 11.042 0 005.516 5.516l.636-1.272a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <span>010-5702-2170</span>
+                            </div>
+
+                            <!-- 학교 아이콘 -->
+                            <div class="flex items-center w-fit space-x-2 text-gray-600 m-auto">
+                                <img src="school_icon.png" alt="University Icon" class="h-6 w-6">
+                                <span>Ajou University</span>
                             </div>
                         </div>
                     </div>
                 </nav>
 
-                <!-- ===== MAIN ===== -->
+                <!-- ===== 메인 영역 ===== -->
                 <main
                     class="flex-auto grid grid-cols-1 grid-flow-row gap-4 p-5 bg-gray-100 xs:px-20 sm:grid-cols-2 sm:px-5 md:grid-cols-3 xl:grid-cols-4">
                     <div class="group cursor-pointer bg-white shadow-lg">
@@ -286,48 +267,46 @@
                             </h5>
                         </div>
                     </div>
-
-                    <!-- 카드 구조는 그대로 두고 반복 -->
-                    <!-- layout 영향 없음 -->
                 </main>
             </div>
         </div>
     </div>
 </body>
 <script>
-  const header = document.getElementById("header");
-  const menuBars = document.querySelectorAll(".menu-bar");
-  const logo = header.querySelector("img");
+    const header = document.getElementById("header");
+    const menuBars = document.querySelectorAll(".menu-bar");
+    const logo = header.querySelector("img");
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 200) {
-      // header
-      header.classList.remove("bg-transparent", "h-28", "md:h-40", "lg:h-48");
-      header.classList.add("bg-white", "h-16", "md:h-20", "shadow-lg");
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+            // header
+            header.classList.remove("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+            header.classList.add("bg-white", "h-16", "md:h-20", "shadow-lg");
 
-      // logo
-      logo.src = "/data/common/moveBlack.svg";
+            // logo
+            logo.src = "knutlab_bgO_icon.png";
 
-      // menu icon → black
-      menuBars.forEach(bar => {
-        bar.classList.remove("bg-white");
-        bar.classList.add("bg-black");
-      });
+            // menu icon → black
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-white");
+                bar.classList.add("bg-black");
+            });
 
-    } else {
-      // header
-      header.classList.remove("bg-white", "h-16", "md:h-20", "shadow-lg");
-      header.classList.add("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+        } else {
+            // header
+            header.classList.remove("bg-white", "h-16", "md:h-20", "shadow-lg");
+            header.classList.add("bg-transparent", "h-28", "md:h-40", "lg:h-48");
 
-      // logo
-      logo.src = "./MoveLab _ MoveLab_files/whiteLogo.svg";
+            // logo
+            logo.src = "knutlab_icon.png";
 
-      // menu icon → white
-      menuBars.forEach(bar => {
-        bar.classList.remove("bg-black");
-        bar.classList.add("bg-white");
-      });
-    }
-  });
+            // menu icon → white
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-black");
+                bar.classList.add("bg-white");
+            });
+        }
+    });
 </script>
+
 </html>
