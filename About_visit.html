@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About - Intelligent Database Lab</title>
     <link rel="stylesheet" href="./MoveLab _ MoveLab_files/f64062820053dd66.css">
+    <link rel="stylesheet" href="./MoveLab _ MoveLab_files/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
-<body class="font-default">
+<body>
     <div class="Container">
         <div class="overflow-hidden">
             <!-- ===== 상단바 영역 ===== -->
@@ -103,5 +104,40 @@
       marker.bindPopup(
         "<b>한국국립교통대학교 미래융합정보관</b><br>충청북도 충주시 대소원면 대학로 50 미래융합정보관(W18)"
       );
+
+          const header = document.getElementById("header");
+    const menuBars = document.querySelectorAll(".menu-bar");
+    const logo = header.querySelector("img");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+            // header
+            header.classList.remove("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+            header.classList.add("bg-white", "h-16", "md:h-20", "shadow-lg");
+
+            // logo
+            logo.src = "knutlab_bgO_icon.png";
+
+            // menu icon → black
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-white");
+                bar.classList.add("bg-black");
+            });
+
+        } else {
+            // header
+            header.classList.remove("bg-white", "h-16", "md:h-20", "shadow-lg");
+            header.classList.add("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+
+            // logo
+            logo.src = "knutlab_icon.png";
+
+            // menu icon → white
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-black");
+                bar.classList.add("bg-white");
+            });
+        }
+    });
     </script>
 </html>
