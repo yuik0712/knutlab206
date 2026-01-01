@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research - Intelligent Database Lab</title>
+    <link rel="stylesheet" href="./MoveLab _ MoveLab_files/f64062820053dd66.css">
+    <link rel="stylesheet" href="./MoveLab _ MoveLab_files/animate.min.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="overflow-hidden">
+            <!-- ===== 상단바 영역 ===== -->
+            <div id="header" class="transition-all duration-500 transform-gpu flex items-center justify-between w-full fixed z-30 bg-transparent h-28 md:h-40 lg:h-48">
+                <div class="ml-[10%] cursor-pointer lg:ml-[10%]">
+                    <a href="Intelligent Database Lab.html"> <!-- 메인 페이지 리다이렉션 -->
+                        <img class="h-8 md:h-10 xl:h-12 max-w-[10rem] w-auto" src="knutlab_icon.png"> <!-- 연구실 로고 -->
+                    </a>
+                </div>
+                <div id="menuIcon" class="mr-[10%] w-8 bg-transparent cursor-pointer md:w-10 lg:mr-[15%]">
+                    <!-- 메뉴 아이콘 -->
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                    <div class="menu-bar my-1 h-1 w-full bg-white"></div>
+                </div>
+            </div>
+            <!-- 현재 세션 영역 -->
+            <section class="w-full h-[26rem] relative lg:h-[30rem]">
+                <div class="absolute w-full h-full z-10 bg-black bg-opacity-30"></div>
+                <div class="absolute w-full h-full">
+                    <img src="./introBanner.webp" class="absolute inset-0 w-full h-full object-cover object-center" alt="Intro Banner" />
+                </div>
+                <div
+                    class="z-20 relative w-fit top-1/2 left-[10%] font-poppins animate-fadeUp transform-gpu lg:left-1/4">
+                    <h1 class="w-fit text-5xl pb-6 font-bold text-white">About The Lab</h1>
+                    <h2 class="text-2xl leading-5 text-opacity-50 text-white font-bold sm:text-[2.2rem]">About The Lab
+                    </h2>
+                </div>
+            </section>
+            <div class="w-full flex flex-col lg:flex-row">
+                <nav class="flex-none w-full h-[4rem] relative bg-stone-100 z-20 overflow-x-scroll scrollbar-hide lg:min-w-[18rem] lg:w-0 lg:h-fit lg:bg-white lg:-top-20 lg:overflow-x-hidden">
+                    <ul class="flex justify-center items-center h-full text-xl text-stone-800 min-w-[43rem] space-x-7 lg:pt-20 lg:px-5 lg:pb-8 lg:space-y-5 lg:w-fit lg:m-auto lg:h-fit lg:block lg:min-w-0 lg:space-x-0 lg:overflow-x-hidden">
+                        <div>
+                            <li><a class="cursor-pointer transition-colors delay-100 text-2xl text-amber-800">Projects</a></li>
+                        </div>
+                        <div>
+                            <li><a class="cursor-pointer transition-colors delay-100 text-gray-800 hover:text-gray-400">Publications</a></li>
+                        </div>
+                        <div>
+                            <li><a class="cursor-pointer transition-colors delay-100 text-gray-800 hover:text-gray-400">Thesis</a></li>
+                        </div>
+                        <div>
+                            <li><a class="cursor-pointer transition-colors delay-100 text-gray-800 hover:text-gray-400">Competition/Award</a></li>
+                        </div>
+                        <div>
+                            <li><a class="cursor-pointer transition-colors delay-100 text-gray-800 hover:text-gray-400">Conferences</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="w-full">
+                    <main class="flex-auto grid grid-cols-1 grid-flow-row gap-5 p-5 bg-gray-100 xs:px-20 sm:grid-cols-2 sm:px-5 md:grid-cols-3 xl:grid-cols-4">
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10"></div>
+                                <div class="w-full aspect-square">
+                                    <span style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;">
+                                        <img sizes="100vw" srcset="/data/research/project/image/image24.webp?imwidth=640 640w, /data/research/project/image/image24.webp?imwidth=750 750w, /data/research/project/image/image24.webp?imwidth=828 828w, /data/research/project/image/image24.webp?imwidth=1080 1080w, /data/research/project/image/image24.webp?imwidth=1200 1200w, /data/research/project/image/image24.webp?imwidth=1920 1920w, /data/research/project/image/image24.webp?imwidth=2048 2048w, /data/research/project/image/image24.webp?imwidth=3840 3840w" src="/data/research/project/image/image24.webp?imwidth=3840" decoding="async" data-nimg="fill" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;">
+                                    </span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700"></div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    모빌리티 서비스수준 분석 및 정책지원 연구용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image23.webp?imwidth=640 640w, /data/research/project/image/image23.webp?imwidth=750 750w, /data/research/project/image/image23.webp?imwidth=828 828w, /data/research/project/image/image23.webp?imwidth=1080 1080w, /data/research/project/image/image23.webp?imwidth=1200 1200w, /data/research/project/image/image23.webp?imwidth=1920 1920w, /data/research/project/image/image23.webp?imwidth=2048 2048w, /data/research/project/image/image23.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image23.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    제2차 자율주행 교통물류 기본계획 수립 연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>유성민, 박준호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image22.webp?imwidth=640 640w, /data/research/project/image/image22.webp?imwidth=750 750w, /data/research/project/image/image22.webp?imwidth=828 828w, /data/research/project/image/image22.webp?imwidth=1080 1080w, /data/research/project/image/image22.webp?imwidth=1200 1200w, /data/research/project/image/image22.webp?imwidth=1920 1920w, /data/research/project/image/image22.webp?imwidth=2048 2048w, /data/research/project/image/image22.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image22.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    미래 모빌리티 대응을 위한 교통관제 기능 강화 연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>김주영, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image21.webp?imwidth=640 640w, /data/research/project/image/image21.webp?imwidth=750 750w, /data/research/project/image/image21.webp?imwidth=828 828w, /data/research/project/image/image21.webp?imwidth=1080 1080w, /data/research/project/image/image21.webp?imwidth=1200 1200w, /data/research/project/image/image21.webp?imwidth=1920 1920w, /data/research/project/image/image21.webp?imwidth=2048 2048w, /data/research/project/image/image21.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image21.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    인천공항 이동지역 자율주행차량 운행기준 수립</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>이은호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image20.webp?imwidth=640 640w, /data/research/project/image/image20.webp?imwidth=750 750w, /data/research/project/image/image20.webp?imwidth=828 828w, /data/research/project/image/image20.webp?imwidth=1080 1080w, /data/research/project/image/image20.webp?imwidth=1200 1200w, /data/research/project/image/image20.webp?imwidth=1920 1920w, /data/research/project/image/image20.webp?imwidth=2048 2048w, /data/research/project/image/image20.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image20.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    교통안전대응책 유형화 및 적용 매뉴얼 마련 연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>오경택, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image19.webp?imwidth=640 640w, /data/research/project/image/image19.webp?imwidth=750 750w, /data/research/project/image/image19.webp?imwidth=828 828w, /data/research/project/image/image19.webp?imwidth=1080 1080w, /data/research/project/image/image19.webp?imwidth=1200 1200w, /data/research/project/image/image19.webp?imwidth=1920 1920w, /data/research/project/image/image19.webp?imwidth=2048 2048w, /data/research/project/image/image19.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image19.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    모방학습(Imitation Learning) 기반 교차로 교통류 제어: 신호제어 및 자율차 협력 제어 Imitation
+                                    Learning-Based Intersection Control: Traffic Signal and Cooperative Autonomous
+                                    Vehicle Control</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>조성은, 오경택, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image18.webp?imwidth=640 640w, /data/research/project/image/image18.webp?imwidth=750 750w, /data/research/project/image/image18.webp?imwidth=828 828w, /data/research/project/image/image18.webp?imwidth=1080 1080w, /data/research/project/image/image18.webp?imwidth=1200 1200w, /data/research/project/image/image18.webp?imwidth=1920 1920w, /data/research/project/image/image18.webp?imwidth=2048 2048w, /data/research/project/image/image18.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image18.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    제어 서비스 상품성 향상을 위한 빅데이터 기술 기반 위험 운전 지표 발굴 및 알고리즘 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>노치우, 조성은, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            sizes="100vw"
+                                            srcset="/data/research/project/image/image17.webp?imwidth=640 640w, /data/research/project/image/image17.webp?imwidth=750 750w, /data/research/project/image/image17.webp?imwidth=828 828w, /data/research/project/image/image17.webp?imwidth=1080 1080w, /data/research/project/image/image17.webp?imwidth=1200 1200w, /data/research/project/image/image17.webp?imwidth=1920 1920w, /data/research/project/image/image17.webp?imwidth=2048 2048w, /data/research/project/image/image17.webp?imwidth=3840 3840w"
+                                            src="/data/research/project/image/image17.webp?imwidth=3840"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    능동적 교통사고 예방 및 대응을 위한 자율주행 순찰 서비스 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 유성민, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    테스트베드 기반 Lv.4 자율주행 시스템/서비스 평가 시나리오 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 박하늘, 오경택, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    자율주행 관련 법규 및 규제 대응 서비스 시나리오 실효성 검증 기술 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>노치우, 이유진, 박지혁, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    자율주행 Lv.4/4+ 기반 도시환경관리 서비스 기술 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>김주영, 유지혜, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    원주청 ITS사업 교통지표 산출및 AI신호 최적화 알고리즘 개선연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    화성형미래교통 도입을 위한 기본구상 수립 용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>김주영, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    행정중심복합도시 5-1생활권 미래형 가로환경 구상 및 설계 연구용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 오경택, 홍지호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    대도시권 통합교통서비스 구축 및 활성화 방안 연구용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 홍지호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    기계식주차장 제도개선 연구 용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 노치우, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    1종보통 조건부 자동면허 도입을 위한 면허체계 개선방안 연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    교통사고유발요인 및 위험도예측 요구데이터 항목 조사 연구</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박준호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    AI 기반 교통사고 위험구간 예측 및 대처방안 제시 모델 고도화 용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    교통 빅데이터 및 인공지능(AI) 기반 교통사고 위험도 예측 시스템 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    도심도로 자율협력주행 서비스 효과분석</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박지혁, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    통합이동서비스(MaaS) 산업 관련 해외 규제동향 조사·분석</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>홍지호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    대전형 통합교통플랫폼 도입방안 연구용역</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>홍지호, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group cursor-pointer bg-white shadow-lg">
+                            <figure class="relative">
+                                <div
+                                    class="absolute w-full h-full bg-black bg-opacity-10 group-hover:bg-opacity-30 transition-all duration-300 z-10">
+                                </div>
+                                <div class="w-full aspect-square"><span
+                                        style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; inset: 0px;"><img
+                                            src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+                                            decoding="async" data-nimg="fill"
+                                            style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"><noscript></noscript></span>
+                                </div>
+                            </figure>
+                            <div class="h-[3px] transition-all duration-300 bg-white group-hover:bg-amber-700">
+                            </div>
+                            <div class="px-3 pt-5 pb-5 sm:pb-6 lg:pb-7">
+                                <h3
+                                    class="text-xl font-bold pb-4 text-gray-800 group-hover:text-amber-700 transition-all duration-500 ">
+                                    교통사고-예방대책간 유스케이스 연계 알고리즘 개발</h3>
+                                <div
+                                    class="text-lg leading-5 text-gray-700 group-hover:text-amber-700 transition-all duration-500 font-sans font-light">
+                                    <span>박하늘, 소재현<br></span>
+                                </div>
+                                <div
+                                    class="pt-3 text-base leading-4 text-gray-500 group-hover:text-amber-700 transition-all duration-500 font-sans font-normal">
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    const header = document.getElementById("header");
+    const menuBars = document.querySelectorAll(".menu-bar");
+    const logo = header.querySelector("img");
+
+    window.addEventListener("scroll", () => {
+        if (window.scrollY > 200) {
+            // header
+            header.classList.remove("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+            header.classList.add("bg-white", "h-16", "md:h-20", "shadow-lg");
+
+            // logo
+            logo.src = "knutlab_bgO_icon.png";
+
+            // menu icon → black
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-white");
+                bar.classList.add("bg-black");
+            });
+
+        } else {
+            // header
+            header.classList.remove("bg-white", "h-16", "md:h-20", "shadow-lg");
+            header.classList.add("bg-transparent", "h-28", "md:h-40", "lg:h-48");
+
+            // logo
+            logo.src = "knutlab_icon.png";
+
+            // menu icon → white
+            menuBars.forEach(bar => {
+                bar.classList.remove("bg-black");
+                bar.classList.add("bg-white");
+            });
+        }
+    });
+</script>
+</html>
